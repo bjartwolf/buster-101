@@ -6,6 +6,6 @@ buster.testCase("A module", {
 	assert.equals(my.double(5), "10", "Should double the number");
     },
     "states the not-so-obvious": function () {
-	assert.same(my.double(5), "10", "Should double the number");
+	assert.same(my.double(5), 10, "Should double the number");
     }
 });
